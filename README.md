@@ -32,11 +32,18 @@ Linux 相关的实现细节：
 ComfyUI/custom_nodes/huan_AssetBrowser
 ```
 
+Windows（PowerShell）：
+
+```powershell
+cd D:\ComfyUI\custom_nodes
+git clone https://github.com/2024Xiongmao/ComfyUI-huan-AssetBrowser.git huan_AssetBrowser
+```
+
 Linux / macOS：
 
 ```bash
 cd /path/to/ComfyUI/custom_nodes
-git clone <仓库地址> huan_AssetBrowser     # 或直接解压/拷贝文件夹
+git clone https://github.com/2024Xiongmao/ComfyUI-huan-AssetBrowser.git huan_AssetBrowser
 # 如果 ComfyUI 在虚拟环境里运行，确认用同一个解释器
 source /path/to/ComfyUI/venv/bin/activate   # 可选
 python -c "import torch, numpy, PIL; print('deps ok')"
